@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿/*#include <iostream>
 #include <thread>
 #include <chrono>
 
@@ -43,3 +43,4 @@ int main()
 
 	cout << "그들의 사랑이 끝났다...\n";
 }
+*/
