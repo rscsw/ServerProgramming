@@ -20,7 +20,7 @@ void Propose(string my_name, string his_name)
 
 void GetLove(string name)
 {
-	taesu_maum.lock();
+	taesu_maum.lock(); //lock이 되면 접근해도 기다리게 됨
 	taesu = name;
 	Propose("수", taesu);
 	this_thread::sleep_for(std::chrono::milliseconds(5000)); //5년
@@ -30,9 +30,9 @@ void GetLove(string name)
 
 void main() //PD : 이은석(main)
 {
-	thread na_seok_hoon(GetLove, "석훈아..");
+	thread na_seok_hoon(GetLove, "석훈아.."); //두 스레드 중에 밑에 있는 게 먼저 실행될 수 있음
 	thread oh_jeong_seok(GetLove, "정석아..");
 
-	na_seok_hoon.join();
+	na_seok_hoon.join(); //main 스레드와 위의 스레드가 합쳐진다는 뉘앙스의 함수
 	oh_jeong_seok.join();
 }
