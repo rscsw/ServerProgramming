@@ -24,5 +24,8 @@
     <ClCompile Include="Thread02.cpp">
       <Filter>Lecture</Filter>
     </ClCompile>
+    <ClCompile Include="Thread03.cpp">
+      <Filter>Lecture</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

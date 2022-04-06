@@ -1,6 +1,5 @@
 //목요드라마 석 & 훈
-
-#include <iostream>
+/*#include <iostream>
 #include <thread> //스탠다드 라이브러리기 때문에 std라는 네임스페이스가 필요하다
 #include <mutex>
 #include <string>
@@ -24,7 +23,7 @@ void GetLove(string name)
 	taesu = name;
 	Propose("수", taesu);
 	this_thread::sleep_for(std::chrono::milliseconds(5000)); //5년
-	cout << "수 : " << name << "우리 헤어져";
+	cout << "수 : " << name << "우리 헤어져\n";
 	taesu_maum.unlock();
 }
 
@@ -35,4 +34,4 @@ void main() //PD : 이은석(main)
 
 	na_seok_hoon.join(); //main 스레드와 위의 스레드가 합쳐진다는 뉘앙스의 함수
 	oh_jeong_seok.join();
-}
+}*/

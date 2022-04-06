@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Thread01.cpp" />
     <ClCompile Include="Thread02.cpp" />
+    <ClCompile Include="Thread03.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
