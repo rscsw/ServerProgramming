@@ -13,22 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Lecture">
-      <UniqueIdentifier>{c9ab101a-3089-42b8-b51c-f4c70c493294}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Thread01.cpp">
-      <Filter>Lecture</Filter>
+    <ClCompile Include="..\chatClient\ServerExample.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Thread02.cpp">
-      <Filter>Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="Thread03.cpp">
-      <Filter>Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="Thread04.cpp">
-      <Filter>Lecture</Filter>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

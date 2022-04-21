@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thirdGradeBabo", "thirdGrad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chatClient", "chatClient\chatClient.vcxproj", "{AB11CF96-46BA-4164-9BEA-2828C8E1B936}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chatServer", "chatServer\chatServer.vcxproj", "{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AB11CF96-46BA-4164-9BEA-2828C8E1B936}.Release|x64.Build.0 = Release|x64
 		{AB11CF96-46BA-4164-9BEA-2828C8E1B936}.Release|x86.ActiveCfg = Release|Win32
 		{AB11CF96-46BA-4164-9BEA-2828C8E1B936}.Release|x86.Build.0 = Release|Win32
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Debug|x64.ActiveCfg = Debug|x64
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Debug|x64.Build.0 = Debug|x64
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Debug|x86.Build.0 = Debug|Win32
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Release|x64.ActiveCfg = Release|x64
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Release|x64.Build.0 = Release|x64
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Release|x86.ActiveCfg = Release|Win32
+		{5D643F2C-5FC5-44D8-97C6-19312A0FEEC1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
