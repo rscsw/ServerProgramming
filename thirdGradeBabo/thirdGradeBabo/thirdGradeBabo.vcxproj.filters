@@ -30,5 +30,8 @@
     <ClCompile Include="Thread04.cpp">
       <Filter>Lecture</Filter>
     </ClCompile>
+    <ClCompile Include="Thread05.cpp">
+      <Filter>Lecture</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

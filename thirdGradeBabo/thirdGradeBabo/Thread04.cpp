@@ -1,4 +1,4 @@
-//목요드라마 석 & 훈
+/* //목요드라마 석 & 훈
 #include <iostream> //iostream 사용 선언 (입출력을 위한 헤더 파일)
 #include <thread>   //쓰레드 사용 선언
 #include <mutex>    //뮤텍스 사용 선언
@@ -55,7 +55,7 @@ public:
 		this_thread::sleep_for(std::chrono::milliseconds(1000));				//1초 쉬었다가 실행되도록 해줌
 		cout << "훈 : " << actor->name << "... 내방에서... 라면먹고갈래??\n\n"; //상대 배우를 유혹함
 		actor->heart.lock();													//상대 배우의 마음(뮤텍스)에 잠금을 걸어 다른 사람을 좋아할 수 없게 만든다
-	}																			//FallinLove 함수에서 이미 마음에 lock이 걸렸기 때문에 상대 배우의 마음에 lock을 걸려고 하지만 걸리지 않는다, 데드락 발생
+	}																			//FallinLove 함수에서 이미 마음에 lock을 걸었기 때문에 상대 배우의 마음에 lock을 걸려고 하지만 걸리지 않는다, 데드락 발생
 
 	void Fuckyou(Actor* actor) //헤어지기 위해 뻐큐를 날리는 함수
 	{
@@ -175,4 +175,4 @@ int main() //Thread0 PD : 이은석 (main)
 	delete(su); //수 배우 삭제
 
 	return 0; //프로그램 종료
-}
+}*/

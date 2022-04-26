@@ -24,8 +24,8 @@
 //    SOCKET ListenSocket = INVALID_SOCKET; //클라이언트가 연결 됐는지 안됐는지 체크하는 소켓
 //    SOCKET ClientSocket = INVALID_SOCKET; //나에게 접속한 놈이 누군지 체크
 //
-//    struct addrinfo* result = NULL; //
-//    struct addrinfo hints; //
+//    struct addrinfo* result = NULL;
+//    struct addrinfo hints;
 //
 //    int iSendResult;
 //    char recvbuf[DEFAULT_BUFLEN];
