@@ -1,4 +1,4 @@
-/* //목요드라마 석 & 훈
+ //목요드라마 석 & 훈
 #include <iostream> //iostream 사용 선언 (입출력을 위한 헤더 파일)
 #include <thread>   //쓰레드 사용 선언
 #include <mutex>    //뮤텍스 사용 선언
@@ -165,9 +165,9 @@ int main() //Thread0 PD : 이은석 (main)
 	s->Start(su); //석 배우가 수 배우의 변수를 받아올 수 있도록 해줌
 	su->Start(h); //수 배우가 석 배우의 변수를 받아올 수 있도록 해줌
 
-	h->th.join();  //훈 배우의 th에 저장된 Run 함수 실행
-	s->th.join();  //석 배우의 th에 저장된 Run 함수 실행
-	su->th.join(); //수 배우의 th에 저장된 Run 함수 실행
+	h->th.join();  //훈 배우의 th에 저장된 Run 함수가 종료될 때까지 대기
+	s->th.join();  //석 배우의 th에 저장된 Run 함수가 종료될 때까지 대기
+	su->th.join(); //수 배우의 th에 저장된 Run 함수가 종료될 때까지 대기
 
 	this_thread::sleep_for(std::chrono::milliseconds(1000)); //1초 쉬었다가 실행되도록 해줌
 	delete(h);  //훈 배우 삭제
@@ -175,4 +175,4 @@ int main() //Thread0 PD : 이은석 (main)
 	delete(su); //수 배우 삭제
 
 	return 0; //프로그램 종료
-}*/
+}

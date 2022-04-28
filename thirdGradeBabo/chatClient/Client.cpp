@@ -89,6 +89,7 @@ void ClientSend(char buffer[], SOCKET socket)
         locker.lock();
         send(socket, buffer, strlen(buffer), 0);
         locker.unlock();
+        PrintMessage();
         cout << "대화를 종료했습니다." << endl;
         //closesocket(socket);
         //WSACleanup();
@@ -182,12 +183,11 @@ int main()
     PrintMessage();
     cout << "====================================================" << endl;
     cout << "메세지 전송 : Enter" << endl;
-    cout << "종료 : / q" << endl;
-    cout << "[주의사항]" << endl;
-    cout << " - 아무것도 입력하지 않고 전송하면 상대방에게 아무것도 전달되지 않습니다." << endl;
+    cout << "종료 : /q" << endl;
+    cout << " - 아무것도 입력하지 않고 전송하면 오류가 발생합니다. 보내지 마세요." << endl;
     cout << " - 최초로 Enter 입력 시 공백이 출력되는 현상이 있습니다." << endl;
     cout << "   한 번만 일어나는 현상이니 무시해주세요." << endl;
-    cout << " - 이 매뉴얼은 한 번만 출력됩니다." << endl;
+    cout << " - 이 메뉴얼은 한 번만 출력됩니다." << endl;
     cout << "====================================================" << endl;
 
     char buffer[PACKET_SIZE] = { 0 };
