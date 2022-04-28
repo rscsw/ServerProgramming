@@ -1,4 +1,4 @@
- //목요드라마 석 & 훈
+//목요드라마 석 & 훈
 #include <iostream> //iostream 사용 선언 (입출력을 위한 헤더 파일)
 #include <thread>   //쓰레드 사용 선언
 #include <mutex>    //뮤텍스 사용 선언
@@ -23,7 +23,7 @@ public:
 class Hoon : public Actor //Actor 클래스를 상속받은 Hoon 클래스 생성
 {
 public:
-	void(Hoon::* RunPointer)(Actor* actor); //
+	void(Hoon::* RunPointer)(Actor* actor); //함수 포인터 선언, 매개변수로 actor 선언
 
 	Hoon() //생성자
 	{
@@ -32,8 +32,8 @@ public:
 
 	void Start(Actor* actor) //Start 함수 오버라이드, 상대 배우의 변수를 받아온다
 	{
-		RunPointer = &Hoon::Run;			  //변수를 받아올 상대 배우의 변수 주소값을 RunPointer에 저장한다, RunPointer가 주소를 가져다줄 함수는 Run, &로 주소값을 받아온다
-		th = thread(RunPointer, this, actor); //RunPointer가 들고 있는 주소값, RunPounter가 주소를 가져다 줄 함수(this = &Hoon::Run), 그리고 주소값의 출처(actor)를 th에 저장함
+		RunPointer = &Hoon::Run;			  //포인터로 선언한 RunPointer는 class Hoon에 있는 Run이라는 함수의 주소값을 받아온다
+		th = thread(RunPointer, this, actor); //함수를 지목할 포인터(RunPointer), RunPounter가 가리키고 있는 함수(this = Hoon::Run), 매개변수 actor
 	}
 
 	void Run(Actor* actor) { //Run 함수 오버라이드, 아래의 함수들이 순서대로 실행되도록 함
