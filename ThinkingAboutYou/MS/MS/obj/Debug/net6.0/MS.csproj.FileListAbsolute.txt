@@ -1,0 +1,15 @@
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\bin\Debug\net6.0\MS.exe
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\bin\Debug\net6.0\MS.deps.json
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\bin\Debug\net6.0\MS.runtimeconfig.json
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\bin\Debug\net6.0\MS.dll
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\bin\Debug\net6.0\MS.pdb
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.csproj.AssemblyReference.cache
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.GeneratedMSBuildEditorConfig.editorconfig
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.AssemblyInfoInputs.cache
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.AssemblyInfo.cs
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.csproj.CoreCompileInputs.cache
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.dll
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\refint\MS.dll
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.pdb
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\MS.genruntimeconfig.cache
+D:\VR20221\ServerProgramingGit\ThinkingAboutYou\MS\MS\obj\Debug\net6.0\ref\MS.dll

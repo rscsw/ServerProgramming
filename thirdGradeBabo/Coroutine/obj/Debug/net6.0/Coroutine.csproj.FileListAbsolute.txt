@@ -1,0 +1,15 @@
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\bin\Debug\net6.0\Coroutine.exe
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\bin\Debug\net6.0\Coroutine.deps.json
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\bin\Debug\net6.0\Coroutine.runtimeconfig.json
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\bin\Debug\net6.0\Coroutine.dll
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\bin\Debug\net6.0\Coroutine.pdb
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.csproj.AssemblyReference.cache
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.GeneratedMSBuildEditorConfig.editorconfig
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.AssemblyInfoInputs.cache
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.AssemblyInfo.cs
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.csproj.CoreCompileInputs.cache
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.dll
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\refint\Coroutine.dll
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.pdb
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\Coroutine.genruntimeconfig.cache
+D:\VR20221\ServerProgramingGit\thirdGradeBabo\Coroutine\obj\Debug\net6.0\ref\Coroutine.dll
