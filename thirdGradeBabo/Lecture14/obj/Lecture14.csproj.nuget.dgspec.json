@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Coroutine\\Coroutine.csproj": {}
+    "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Lecture14\\Lecture14.csproj": {}
   },
   "projects": {
-    "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Coroutine\\Coroutine.csproj": {
+    "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Lecture14\\Lecture14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Coroutine\\Coroutine.csproj",
-        "projectName": "Coroutine",
-        "projectPath": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Coroutine\\Coroutine.csproj",
+        "projectUniqueName": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Lecture14\\Lecture14.csproj",
+        "projectName": "Lecture14",
+        "projectPath": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Lecture14\\Lecture14.csproj",
         "packagesPath": "C:\\Users\\choisw\\.nuget\\packages\\",
-        "outputPath": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Coroutine\\obj\\",
+        "outputPath": "D:\\VR20221\\ServerProgramingGit\\thirdGradeBabo\\Lecture14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\choisw\\AppData\\Roaming\\NuGet\\NuGet.Config",
